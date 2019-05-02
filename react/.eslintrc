@@ -1,0 +1,16 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true
+  },
+  "extends": ["react-app"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "jsx-a11y/href-no-hash": 0,
+    "no-console": "error",
+    "no-unused-vars": "warn",
+    "no-debugger": "error",
+    "no-alert": "warn"
+  }
+}
